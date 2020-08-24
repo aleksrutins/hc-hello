@@ -1,0 +1,10 @@
+name: munchkinhalfling/hc-hello
+sourceType: git
+source: git://github.com/munchkinhalfling/hc-hello.git
+scripts:
+  build:
+    - make
+  install
+    - make install PREFIX=$(PREFIX)
+bin:
+  hubcap-hello: bin/hubcap-hello
