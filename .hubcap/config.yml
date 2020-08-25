@@ -2,7 +2,7 @@ name: munchkinhalfling/hc-hello
 sourceType: git
 source: git://github.com/munchkinhalfling/hc-hello.git
 scripts:
-  build:x
+  build:
     - make
   install:
     - make install PREFIX=$(PREFIX)
